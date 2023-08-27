@@ -6,7 +6,7 @@ function Counder() {
     return (
         <div>
            
-            <button onClick={() => setCount(count + 1)} class="btn btn-primary">Button</button>
+            <button onClick={() => setCount(count + 5)} class="btn btn-primary">Button</button>
             <button  onClick={() => setCount(count - 1)} class="btn btn-primary">Button</button>
         </div>
     )
